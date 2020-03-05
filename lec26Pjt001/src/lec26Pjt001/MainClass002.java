@@ -32,16 +32,14 @@ public class MainClass002 {
 			
 			System.out.println("list.size() : " + list.size());
 			
-		} catch (InputMismatchException e) {
-			e.printStackTrace();
 		} catch (ArrayIndexOutOfBoundsException e) {
 			e.printStackTrace();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		
+		System.out.println();
 		System.out.println("Ecexption AFTER");
-		
 	}
 	
 }

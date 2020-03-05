@@ -3,7 +3,7 @@ package lec20Pjt001;
 public class MainClass {
 
 	public static void main(String[] args) {
-		
+		/*
 		OuterClass oc = new OuterClass();
 		System.out.println("oc.num : " + oc.num);
 		System.out.println("oc.str1 : " + oc.str1);
@@ -23,7 +23,7 @@ public class MainClass {
 		System.out.println("si.str3 : " + si.str3);
 		
 		System.out.println();
-		
+		*/
 		// 익명(anonymous) 클래스
 		new AnonymousClass() {
 			
